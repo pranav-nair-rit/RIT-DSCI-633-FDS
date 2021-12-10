@@ -1,7 +1,5 @@
-- Data 
-- Model pkl files
 - Model CPU error
-- Drive
+
 
 ## Analysing User Watch Times and Predict the Segment (i.e. Sentiment)
 
@@ -33,4 +31,13 @@ The dataset consists of three files:
 
 The evaluation metric for our problem shall be `roc_auc_score`
 
-### 
+### Data & Models
+We have converted all the models that we have trained on the dataset into pickle files (i.e. `.pkl`). These models along with all the preprocessed datasets have been stored in the given link on drive, since they cannot be pushed to GitHub due to their large file size
+- Preprocessed Datasets - https://drive.google.com/drive/folders/1NDcrSaYWsN5nOA737GE1MXaFI40XUcO-?usp=sharing
+- Pickle files of Models -  https://drive.google.com/drive/folders/1TmhZcSfXTNSh5WfgaQ7wzZNEpf3zfn1P?usp=sharing
+
+### Execution
+The IPython notebook should be executed on a GPU-enabled machine.
+
+### Streamlit 
+The `main.py` file should be used for running the streamlit app. It is recommended to create a separate environment when tring to run the app.
