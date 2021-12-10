@@ -23,7 +23,7 @@ Our task is to build a machine learning model that can take these user watch tim
 
 ## Data Description
 
-The dataset file for this project is hosted in the [given link](https://he-s3.s3.amazonaws.com/media/hackathon/machine-learning-indiahacks-2017/5f828822-4--4-hotstar_dataset.zip). 
+The dataset file for this project is hosted in the [given link](https://www.hackerearth.com/problem/machine-learning/predict-the-segment-hotstar/). 
 The dataset consists of three files:
     - `train_data.json` - This is our training dataset that contains the features and target variables for 200000 users 
     - `test_data.json` - This our testing dataset that contains only the features for 100000 users. This is the data on which we shall be predicting using our ML model.
@@ -33,4 +33,4 @@ The dataset consists of three files:
 
 The evaluation metric for our problem shall be `roc_auc_score`
 
-
+### 
