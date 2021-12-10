@@ -1,6 +1,3 @@
-- Model CPU error
-
-
 ## Analysing User Watch Times and Predict the Segment (i.e. Sentiment)
 
 #### Team Members
